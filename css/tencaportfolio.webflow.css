@@ -657,10 +657,14 @@ a {
 
 .div-block-14 {
   opacity: 1;
-  width: 80%;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   height: auto;
   padding-left: 10px;
   padding-right: 13px;
+  display: flex;
 }
 
 .btn-parent {
@@ -671,8 +675,7 @@ a {
   align-items: center;
   width: 20%;
   height: 45px;
-  margin-bottom: 3vh;
-  margin-right: 15px;
+  margin: 0 0 0;
   padding-right: 0;
   text-decoration: none;
   display: flex;
@@ -1611,6 +1614,117 @@ a {
   left: 43px;
 }
 
+.navbar-copy {
+  color: #eeedf2;
+  background-color: #4f1d0082;
+  border-radius: .8em;
+  flex-direction: column;
+  flex: 0 auto;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 10em;
+  height: 100%;
+  padding: 1.3em 1.1em 1.3em 1.3em;
+  display: flex;
+  overflow: hidden;
+}
+
+.section-5 {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  display: flex;
+}
+
+.body-2 {
+  background-color: #45006c;
+}
+
+.container-9 {
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.image-19 {
+  width: 100%;
+}
+
+.navbar-novaera {
+  color: #eeedf2;
+  background-color: #2e014582;
+  border-radius: .8em;
+  flex-direction: column;
+  flex: 0 auto;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 10em;
+  height: 100%;
+  padding: 1.3em 1.1em 1.3em 1.3em;
+  display: flex;
+  overflow: hidden;
+}
+
+.image-20 {
+  width: 100%;
+}
+
+.section-6 {
+  flex-flow: column;
+  display: flex;
+}
+
+.image-21, .image-22, .image-23, .image-24, .image-25 {
+  width: 100%;
+}
+
+.navbar-solura {
+  color: #eeedf2;
+  background-color: #12237182;
+  border-radius: .8em;
+  flex-direction: column;
+  flex: 0 auto;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 10em;
+  height: 100%;
+  padding: 1.3em 1.1em 1.3em 1.3em;
+  display: flex;
+  overflow: hidden;
+}
+
+.navbar-creatir {
+  color: #eeedf2;
+  background-color: #82087a82;
+  border-radius: .8em;
+  flex-direction: column;
+  flex: 0 auto;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 10em;
+  height: 100%;
+  padding: 1.3em 1.1em 1.3em 1.3em;
+  display: flex;
+  overflow: hidden;
+}
+
+.navbar-eco {
+  color: #eeedf2;
+  background-color: #09840082;
+  border-radius: .8em;
+  flex-direction: column;
+  flex: 0 auto;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 10em;
+  height: 100%;
+  padding: 1.3em 1.1em 1.3em 1.3em;
+  display: flex;
+  overflow: hidden;
+}
+
 @media screen and (max-width: 991px) {
   .logo-image {
     height: 30px;
@@ -1710,7 +1824,7 @@ a {
   }
 
   .heading {
-    font-size: 30px;
+    font-size: 26px;
   }
 
   .image {
@@ -1733,7 +1847,7 @@ a {
 
   .heading-2 {
     margin-top: -11px;
-    font-size: 30px;
+    font-size: 26px;
   }
 
   .image-2 {
